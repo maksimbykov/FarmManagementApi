@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FarmManagementApi", "FarmManagementApi.csproj", "{F69859B6-B590-4056-A280-9A34ADD3D9D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F69859B6-B590-4056-A280-9A34ADD3D9D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F69859B6-B590-4056-A280-9A34ADD3D9D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F69859B6-B590-4056-A280-9A34ADD3D9D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F69859B6-B590-4056-A280-9A34ADD3D9D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70FB9FA8-CEDC-44B9-964D-C907B12AB578}
+	EndGlobalSection
+EndGlobal

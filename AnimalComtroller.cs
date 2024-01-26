@@ -27,6 +27,10 @@ namespace FarmManagementApi
             {
                 return Conflict("This animal already exists.");
             }
+            if (string.IsNullOrWhiteSpace(animal.Name) || string.IsNullOrEmpty(animal.Name))
+            {
+                return BadRequest("Cannot create animal with empty name");
+            }
 
             _context.Animals.Add(animal);
             _context.SaveChanges();

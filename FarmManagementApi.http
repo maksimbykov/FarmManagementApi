@@ -1,6 +1,0 @@
-@FarmManagementApi_HostAddress = http://localhost:5218
-
-GET {{FarmManagementApi_HostAddress}}/Animal/
-Accept: application/json
-
-###

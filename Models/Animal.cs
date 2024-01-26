@@ -6,8 +6,6 @@ namespace FarmManagementApi.Models
     public class Animal
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public Guid Id { get; set; }
         public string Name { get; set; }
     }
 }
